@@ -22,6 +22,7 @@ This is a Dictionary Web App, built with ReactJS, using the Dictionary API and i
 <p>In this project, I had the opportunity to exercise componentization with ReactJS to the fullest, making the application more readable and facilitating its maintenance. I also made use of styled-components, favoring adherence to best practices for controlling a component's behavior.</p>
 <p>The use of TypeScript was essential to control the typing of properties used for communication between components.</p>
 <p>This was one of the first projects in which the benefits of componentization became very clear to me, in order to clarify the hierarchy between the existing components in the project and to allow the fragmentation and reuse of functionalities.</p>
+<p>In addition, I used the mobile first approach to favor the application's responsiveness.</p>
 <br>
 <h2>:mag: Links</h2>
 <li><a href="https://maricastroc-coffeeroasters-page.netlify.app/" target="_blank">Preview Site</a></li>
