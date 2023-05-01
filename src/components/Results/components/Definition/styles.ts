@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const DefinitionContainer = styled.ul`
+export const DefinitionContainer = styled.div`
   li {
     position: relative;
     list-style: none;
