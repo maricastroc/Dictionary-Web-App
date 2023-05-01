@@ -25,7 +25,7 @@ This is a Dictionary Web App, built with ReactJS, using the Dictionary API and i
 <p>In addition, I used the mobile first approach to favor the application's responsiveness.</p>
 <br>
 <h2>:mag: Links</h2>
-<li><a href="https://maricastroc-coffeeroasters-page.netlify.app/" target="_blank">Preview Site</a></li>
+<li><a href="https://maricastroc-dictionary-app.netlify.app/" target="_blank">Preview Site</a></li>
 <br/>
 <h2>:computer: My Process</h2>
 <h3>Built with:</h3>
