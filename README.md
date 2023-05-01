@@ -1,5 +1,5 @@
 # Dictionary Web App
-Dictionary Web App, a 3-page site with an interactive subscription section.
+This is a Dictionary Web App, built with ReactJS, using the Dictionary API and including colour themes and font selection.
 
 <br/>
 <h2>:books: Project Description</h2>
