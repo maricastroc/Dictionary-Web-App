@@ -32,7 +32,11 @@ export function SearchBar(props: SearchBarProps) {
           className={error ? 'invalid_form' : 'valid_form'}
           onSubmit={handleSearchWord}
         >
+          <label htmlFor="search_word" hidden>
+            Search...
+          </label>
           <input
+            id="search_word"
             type="text"
             placeholder="Search for any word..."
             onChange={handleSetInputWord}
@@ -40,6 +44,7 @@ export function SearchBar(props: SearchBarProps) {
             onClick={() => setError(false)}
           />
           <button type="submit">
+            <span hidden>Search</span>
             <MagnifyingGlass size={20} className="icon" />
           </button>
         </form>

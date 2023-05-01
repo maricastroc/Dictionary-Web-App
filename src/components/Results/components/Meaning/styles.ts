@@ -42,7 +42,7 @@ export const MeaningListContainer = styled.div`
   flex-direction: column;
   margin-top: 2.15rem;
 
-  ul {
+  > p {
     position: relative;
     font-size: 1rem;
     color: ${(props) => props.theme['4-font-color']};
@@ -52,7 +52,7 @@ export const MeaningListContainer = styled.div`
   @media (min-width: 768px) {
     margin-top: 2.75rem;
 
-    ul {
+    > p {
       margin-bottom: 1rem;
       font-size: 1.25rem;
     }

@@ -20,7 +20,7 @@ export function Meaning(props: MeaningProps) {
         <span></span>
       </MeaningTypeContainer>
       <MeaningListContainer>
-        <ul>Meaning</ul>
+        <p>Meaning</p>
         <Definition content={props.definitions} />
         {props.synonyms.length > 0 && (
           <SynonymsContainer>
