@@ -11,7 +11,11 @@ export function FontSelector() {
     <FontSelectorContainer>
       <div onClick={() => setDropdownOpen(!dropdownOpen)}>
         <button>{fontType}</button>
-        <img src={ArrowDown} alt="" />
+        <img
+          src={ArrowDown}
+          alt=""
+          className={dropdownOpen ? 'active_arrow' : 'disabled_arrow'}
+        />
       </div>
       {dropdownOpen && (
         <Dropdown>

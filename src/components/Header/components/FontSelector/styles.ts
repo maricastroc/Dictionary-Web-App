@@ -27,9 +27,19 @@ export const FontSelectorContainer = styled.div`
     }
   }
 
-  img {
+  .active_arrow,
+  .disabled_arrow {
     cursor: pointer;
     margin-left: 0.5rem;
+    transition: transform 300ms ease;
+  }
+
+  .active_arrow {
+    transform: rotateX(180deg);
+  }
+
+  .disabled_arrow {
+    transform: rotateX(0);
   }
 
   @media (min-width: 768px) {
@@ -37,7 +47,8 @@ export const FontSelectorContainer = styled.div`
       font-size: 1.125rem;
     }
 
-    img {
+    .active_arrow,
+    .disabled_arrow {
       margin-left: 1rem;
     }
   }
