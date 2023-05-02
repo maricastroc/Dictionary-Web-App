@@ -10,7 +10,7 @@ export function FontSelector() {
   return (
     <FontSelectorContainer>
       <div onClick={() => setDropdownOpen(!dropdownOpen)}>
-        <button>{fontType}</button>
+        <button aria-label="change_font_type">{fontType}</button>
         <img
           src={ArrowDown}
           alt=""

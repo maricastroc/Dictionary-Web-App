@@ -43,8 +43,7 @@ export function SearchBar(props: SearchBarProps) {
             value={word}
             onClick={() => setError(false)}
           />
-          <button type="submit">
-            <span hidden>Search</span>
+          <button type="submit" aria-label="search_for_word_description">
             <MagnifyingGlass size={20} className="icon" />
           </button>
         </form>
