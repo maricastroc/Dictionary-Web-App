@@ -51,12 +51,22 @@ export function Results(props: ResultsProps) {
       <SourceContainer>
         <span></span>
         <div>
-          <a href={props.source} target="_blank" rel="noreferrer">
+          <a
+            href={props.source}
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Go to source of word definition"
+          >
             <p>Source</p>
           </a>
           <SourceLinkContainer>
             <p>{props.source}</p>
-            <a href={props.source} target="_blank" rel="noreferrer">
+            <a
+              href={props.source}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Go to source of word definition"
+            >
               <img src={SourceIcon} alt="" />
             </a>
           </SourceLinkContainer>

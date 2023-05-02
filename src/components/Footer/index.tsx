@@ -10,6 +10,7 @@ export function Footer() {
           href="https://www.frontendmentor.io/home"
           target="_blank"
           rel="noreferrer"
+          aria-label="Go to frontend mentor site"
         >
           Frontend Mentor
         </a>
@@ -18,6 +19,7 @@ export function Footer() {
           href="https://github.com/maricastroc"
           target="_blank"
           rel="noreferrer"
+          aria-label="Go to author's GitHub"
         >
           Mariana Castro.
         </a>
