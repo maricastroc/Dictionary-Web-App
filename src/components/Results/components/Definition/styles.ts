@@ -1,16 +1,16 @@
 import styled from 'styled-components'
 
 export const DefinitionContainer = styled.div`
-  li {
+  p {
     position: relative;
-    list-style: none;
     font-size: 0.93rem;
     color: ${(props) => props.theme['main-font-color']};
+    margin-top: 0.85rem;
     margin-left: 1.5rem;
     line-height: 24px;
   }
 
-  li::before {
+  p::before {
     position: absolute;
     content: '';
     width: 0.3rem;
@@ -21,11 +21,7 @@ export const DefinitionContainer = styled.div`
     background-color: ${(props) => props.theme['spot-light-color']};
   }
 
-  li {
-    margin-top: 0.85rem;
-  }
-
-  p {
+  span {
     font-size: 0.95rem;
     color: ${(props) => props.theme['4-font-color']};
     margin-top: 0.85rem;
@@ -34,17 +30,14 @@ export const DefinitionContainer = styled.div`
   }
 
   @media (min-width: 768px) {
-    li {
+    p {
       font-size: 1.125rem;
       line-height: 32px;
+      margin-top: 1rem;
       margin-left: 3rem;
     }
 
-    li {
-      margin-top: 1rem;
-    }
-
-    p {
+    span {
       margin: 0.8rem 0 1.5rem 3rem;
       font-size: 1rem;
     }

@@ -17,12 +17,12 @@ export function Definition(props: DefinitionsProps) {
     <DefinitionContainer>
       {definitions.map((item: DefinitionProps) => {
         return (
-          <ul key={item.definition}>
-            <li>{item.definition}</li>
+          <div key={item.definition}>
+            <p>{item.definition}</p>
             {item.example !== undefined ? (
-              <p>&quot;{item.example}&quot;</p>
+              <span>&quot;{item.example}&quot;</span>
             ) : null}
-          </ul>
+          </div>
         )
       })}
     </DefinitionContainer>
