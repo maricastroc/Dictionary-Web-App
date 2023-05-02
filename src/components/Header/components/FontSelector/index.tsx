@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react'
+import { useContext, useEffect, useRef, useState } from 'react'
 import { Dropdown, FontSelectorContainer } from './styles'
 import ArrowDown from '../../../../assets/images/icon-arrow-down.svg'
 import { DictionaryContext } from '../../../../contexts/DictionaryContext'
@@ -6,9 +6,22 @@ import { DictionaryContext } from '../../../../contexts/DictionaryContext'
 export function FontSelector() {
   const { fontType, setFontType } = useContext(DictionaryContext)
   const [dropdownOpen, setDropdownOpen] = useState(false)
+  const ref = useRef<any>(null)
+
+  useEffect(() => {
+    const handleClickOutside = (event: any) => {
+      if (ref.current && !ref.current.contains(event.target)) {
+        setDropdownOpen(false)
+      }
+    }
+    window.addEventListener('click', handleClickOutside)
+    return () => {
+      window.removeEventListener('click', handleClickOutside)
+    }
+  }, [ref])
 
   return (
-    <FontSelectorContainer>
+    <FontSelectorContainer ref={ref}>
       <div onClick={() => setDropdownOpen(!dropdownOpen)}>
         <button aria-label="change_font_type">{fontType}</button>
         <img
