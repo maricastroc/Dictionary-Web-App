@@ -30,7 +30,7 @@ export const HeaderFeaturesContainer = styled.div`
 
   > div {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     gap: 0.8rem;
   }
 

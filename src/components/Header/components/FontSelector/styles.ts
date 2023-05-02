@@ -5,16 +5,15 @@ export const FontSelectorContainer = styled.div`
   display: flex;
   flex-direction: column;
   position: relative;
+  width: 7rem;
 
   .selector_container {
     cursor: pointer;
     display: flex;
-    align-items: center;
   }
 
   button {
     cursor: pointer;
-    position: relative;
     font-size: 0.875rem;
     background-color: transparent;
     color: ${(props) => props.theme['main-font-color']};
@@ -43,6 +42,7 @@ export const FontSelectorContainer = styled.div`
   }
 
   @media (min-width: 768px) {
+    width: 10rem;
     button {
       font-size: 1.125rem;
     }
@@ -61,7 +61,7 @@ export const Dropdown = styled.div`
   gap: 0.8rem;
   text-align: left;
   top: 2rem;
-  left: -2rem;
+  left: 0;
   width: 7rem;
   height: auto;
   padding: 1rem;
@@ -97,7 +97,7 @@ export const Dropdown = styled.div`
   }
 
   @media (min-width: 768px) {
-    left: -1rem;
+    left: 1rem;
     top: 2.5rem;
     gap: 1rem;
     padding: 1.2rem;

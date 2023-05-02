@@ -17,7 +17,7 @@ export function ThemeSwitcher() {
   return (
     <ThemeSwitcherContainer onClick={handleThemeSwitcher}>
       <div>
-        <input></input>
+        <input aria-label="SwitchTheme"></input>
         <span
           className={
             switcherIsChecked ? 'checkedSwitcher' : 'uncheckedSwitcher'

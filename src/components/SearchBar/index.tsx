@@ -32,11 +32,9 @@ export function SearchBar(props: SearchBarProps) {
           className={error ? 'invalid_form' : 'valid_form'}
           onSubmit={handleSearchWord}
         >
-          <label htmlFor="search_word" hidden>
-            Search...
-          </label>
           <input
             id="search_word"
+            aria-label="SearchWord"
             type="text"
             placeholder="Search for any word..."
             onChange={handleSetInputWord}
