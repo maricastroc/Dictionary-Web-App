@@ -34,7 +34,10 @@ In addition, I used the mobile first approach to favor the application's respons
 - [React](https://reactjs.org/)
 - [Typescript](https://www.typescriptlang.org/)
 - [Vite](https://vitejs.dev/)
-- [font-awesome](https://fontawesome.com/)
+- [phosphor-icons](https://phosphoricons.com/)
+- [styled-components](https://styled-components.com/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
 
 ## ℹ️ How to run the application?
 
