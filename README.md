@@ -36,3 +36,25 @@ In addition, I used the mobile first approach to favor the application's respons
 - [Vite](https://vitejs.dev/)
 - [font-awesome](https://fontawesome.com/)
 
+## ℹ️ How to run the application?
+
+> Clone the repository:
+
+```bash
+git clone https://github.com/maricastroc/github-blog
+```
+
+> Install the dependencies:
+
+```bash
+npm install
+```
+
+> Start the service:
+
+```bash
+npm run dev
+```
+
+> ⏩ Access [http://localhost:3000](http://localhost:3000) to view the web application.
+
