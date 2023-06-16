@@ -11,7 +11,7 @@ With this application, users are be able to:
 - Play the audio file for a word when it's available
 - Switch between serif, sans serif, and monospace fonts
 - Switch between light and dark themes
-- >View the optimal layout for the interface depending on their device's screen size
+- View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
 ![challenge-difficulty-intermediate](https://img.shields.io/badge/Difficulty-INTERMEDIATE-f1b604?style=for-the-badge&amp;logo=frontendmentor)
