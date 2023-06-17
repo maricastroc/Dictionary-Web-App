@@ -44,7 +44,7 @@ In addition, I used the mobile first approach to favor the application's respons
 > Clone the repository:
 
 ```bash
-git clone https://github.com/maricastroc/github-blog
+git clone https://github.com/maricastroc/dictionary-web-app
 ```
 
 > Install the dependencies:
